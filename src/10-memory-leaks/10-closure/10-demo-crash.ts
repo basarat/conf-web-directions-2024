@@ -11,14 +11,14 @@ function closure(value: unknown[]) {
   return getLength;
 }
 
-let fn1 = closure(allocate());
+const fn1 = closure(allocate());
 console.log(fn1()); // 2500
 
-let fn2 = closure(allocate());
+const fn2 = closure(allocate());
 console.log(fn2()); // 2500
 
-let fn3 = closure(allocate());
+const fn3 = closure(allocate());
 console.log(fn3()); // 2500
 
-let fn4 = closure(allocate());
+const fn4 = closure(allocate());
 console.log(fn4()); // 2500
