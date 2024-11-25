@@ -6,27 +6,27 @@ export function allocate() {
   return result;
 }
 
-{
-  const result = allocate();
+(() => {
+  let result = allocate();
   console.log(result.length);
-}
+})();
 
-{
-  const result = allocate();
+(() => {
+  let result = allocate();
   console.log(result.length);
-}
+})();
 
-{
-  const result = allocate();
+(() => {
+  let result = allocate();
   console.log(result.length);
-}
+})();
 
-{
-  const result = allocate();
+(() => {
+  let result = allocate();
   console.log(result.length);
-}
+})();
 
-{
-  const result = allocate();
+(() => {
+  let result = allocate();
   console.log(result.length);
-}
+})();
