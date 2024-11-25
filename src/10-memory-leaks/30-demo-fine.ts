@@ -7,26 +7,26 @@ export function allocate() {
 }
 
 (() => {
-  let result = allocate();
+  const result = allocate();
   console.log(result.length);
 })();
 
 (() => {
-  let result = allocate();
+  const result = allocate();
   console.log(result.length);
 })();
 
 (() => {
-  let result = allocate();
+  const result = allocate();
   console.log(result.length);
 })();
 
 (() => {
-  let result = allocate();
+  const result = allocate();
   console.log(result.length);
 })();
 
 (() => {
-  let result = allocate();
+  const result = allocate();
   console.log(result.length);
 })();
