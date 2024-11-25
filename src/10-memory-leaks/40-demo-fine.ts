@@ -6,27 +6,34 @@ export function allocate() {
   return result;
 }
 
-(() => {
-  let result = allocate();
-  console.log(result.length);
-})();
+type Result = unknown[] | null;
 
-(() => {
-  let result = allocate();
+{
+  let result: Result = allocate();
   console.log(result.length);
-})();
+  result = null;
+}
 
-(() => {
-  let result = allocate();
+{
+  let result: Result = allocate();
   console.log(result.length);
-})();
+  result = null;
+}
 
-(() => {
-  let result = allocate();
+{
+  let result: Result = allocate();
   console.log(result.length);
-})();
+  result = null;
+}
 
-(() => {
-  let result = allocate();
+{
+  let result: Result = allocate();
   console.log(result.length);
-})();
+  result = null;
+}
+
+{
+  let result: Result = allocate();
+  console.log(result.length);
+  result = null;
+}
