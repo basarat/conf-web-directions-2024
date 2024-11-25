@@ -1,5 +1,9 @@
 function counter() {
+  
+  // What is the scope of the variable count?
   let count = 0;
+
+
   return {
     get count() {
       return count;
