@@ -1,6 +1,6 @@
 import { collectGarbage, memoryUsed } from "./utils";
 
-export function fillMap(mapLike: WeakMap<WeakKey, unknown>, char: string) {
+export function fillMap(mapLike: Map<unknown, unknown>, char: string) {
   for (let index = 0; index < 2500; index++) {
     mapLike.set({ id: Math.random() }, new Array(100_000).fill(char));
   }
