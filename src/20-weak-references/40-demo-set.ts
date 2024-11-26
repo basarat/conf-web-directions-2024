@@ -21,6 +21,12 @@ fill(set, '🔥');
 console.log('After', memoryUsed());
 collectGarbage();
 
+// console.log('----------- DeScope Set ---------');
+// set = null;
+// collectGarbage();
+// set = new Set();
+
+// console.log('-------------- Set Keep Adding --------------');
 // console.log('Start', memoryUsed());
 // fill(set, '🌶️');
 // console.log('After', memoryUsed());
@@ -30,10 +36,3 @@ collectGarbage();
 // fill(set, '🌹');
 // console.log('After', memoryUsed());
 // collectGarbage();
-
-
-// console.log('----------- DeScope Set ---------');
-// set = null;
-// collectGarbage();
-
-
