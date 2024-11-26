@@ -11,6 +11,11 @@ function closure(value: unknown[]) {
   return getLength;
 }
 
+/** 
+ * TASK:
+ * - Rewrite to still allocate memory `n` times and log length without crashing.
+ */
+
 const fn1 = closure(allocate());
 console.log(fn1()); // 2500
 
