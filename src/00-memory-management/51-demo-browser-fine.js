@@ -32,3 +32,5 @@ tsunami = null;
 
 let tornado = consume("🌪️");
 tornado = null;
+
+console.log('Memory consumption is stable');
