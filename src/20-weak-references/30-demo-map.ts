@@ -18,3 +18,13 @@ console.log("start", memoryUsed());
 fillMap(map, "🔥");
 console.log("end", memoryUsed());
 collectGarbage();
+
+// console.log("start", memoryUsed());
+// fillMap(map, "🌹");
+// console.log("end", memoryUsed());
+// collectGarbage();
+
+// console.log("start", memoryUsed());
+// fillMap(map, "🫰🏻");
+// console.log("end", memoryUsed());
+// collectGarbage();

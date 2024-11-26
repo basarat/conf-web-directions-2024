@@ -18,3 +18,13 @@ console.log("start", memoryUsed());
 fillMap(weakMap, "🧊");
 console.log("end", memoryUsed());
 collectGarbage();
+
+// console.log("start", memoryUsed());
+// fillMap(weakMap, "🌹");
+// console.log("end", memoryUsed());
+// collectGarbage();
+
+// console.log("start", memoryUsed());
+// fillMap(weakMap, "🫰🏻");
+// console.log("end", memoryUsed());
+// collectGarbage();
