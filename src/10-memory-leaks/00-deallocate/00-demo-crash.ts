@@ -6,6 +6,13 @@ export function allocate() {
   return result;
 }
 
+// TASK: 
+// Rewrite the program to work without crashing
+// Program objectives:
+// - You should allocate the array
+// - You should log the length of the array
+// - Do this 4 times
+
 let another0 = allocate();
 console.log(another0.length);
 
